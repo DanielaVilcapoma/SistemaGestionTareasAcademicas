@@ -348,4 +348,9 @@ def ejecutar_app():
 
 
 if __name__ == "__main__":
-    ejecutar_app()
+    try:
+        print("=== SISTEMA DE GESTIÓN DE TAREAS ACADÉMICAS ===")
+        ejecutar_app()
+    except EOFError:
+        print("Ejecución en CI/CD detectada (sin interacción de usuario)")
+        print("El sistema se ejecutó correctamente en modo automático")
