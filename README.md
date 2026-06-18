@@ -15,7 +15,8 @@ Python
 Git
 GitHub
 GitHub Actions (CI/CD)
-🌿 Flujo de trabajo (GitFlow)
+
+🌿 Flujo de trabajo
 
 El proyecto utiliza GitFlow para la organización del desarrollo:
 
